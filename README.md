@@ -26,6 +26,9 @@ Forum Post																			http://community.powerbi.com/t5/Data-Stories-Galler
 Templates for the package can can be found here.				https://github.com/stretcharm/SSIS-DB-Dashboard
 
 
+Added a new version that is dedicated to the currently running packages and todays errors.
+
+
 Thanks to the providers of the following pages that I've used to help in the making of this dashboard.
 
 https://blogs.msdn.microsoft.com/sql_pfe_blog/2017/04/18/ssisdb-reporting-with-power-bi/
