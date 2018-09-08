@@ -7,19 +7,12 @@ This SSIS Catalog DB Dashboard aims to show the progress, performance an problem
 It collects data from a number of the key tables/views in the SSIS Catalog DB as well as current running jobs from msdb.
 
 I bring in and summarise the data is at a variety of levels
-
 	Execution (Execution & Execution Summary)
-	
 		The Package that is Executed First which I've named RootPackageName. This includes the Project & Folder
-		
 	Package (Executable Package Stats)
-	
 		Package Summary. I group Packages by Types e.g. Master/Dimension/Fact/Stage/PostProcess. You can customised these in the PackageTypes Table. Click Advanced Editor to change it.
-		
 	Executable (Executable Stats)
-	
-	Items inside the Package e.g. Tasks/Data Flows/Containers. I also call this level Package Steps
-	
+		Items inside the Package e.g. Tasks/Data Flows/Containers. I also call this level Package Steps
 
 Data is also shown for Currently Running Packages and SQL jobs. You can refresh this individually to get quick updates.
 This dashboard also provides details of any package errors and maps them to the Microsoft IS Error Reference Names.
