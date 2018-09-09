@@ -1,18 +1,18 @@
 # SSIS-DB-Dashboard
-PowerBI SSIS Catalog DB Dashboard
+## PowerBI SSIS Catalog DB Dashboard
 
-Intro
+### Intro
 
 This SSIS Catalog DB Dashboard aims to show the progress, performance an problems with any SSIS projects running on your server.
 It collects data from a number of the key tables/views in the SSIS Catalog DB as well as current running jobs from msdb.
 
 I bring in and summarise the data is at a variety of levels
-	Execution (Execution & Execution Summary)
-		The Package that is Executed First which I've named RootPackageName. This includes the Project & Folder
-	Package (Executable Package Stats)
-		Package Summary. I group Packages by Types e.g. Master/Dimension/Fact/Stage/PostProcess. You can customised these in the PackageTypes Table. Click Advanced Editor to change it.
-	Executable (Executable Stats)
-		Items inside the Package e.g. Tasks/Data Flows/Containers. I also call this level Package Steps
+- Execution (Execution & Execution Summary)
+	- The Package that is Executed First which I've named RootPackageName. This includes the Project & Folder
+- Package (Executable Package Stats)
+	- Package Summary. I group Packages by Types e.g. Master/Dimension/Fact/Stage/PostProcess. You can customised these in the PackageTypes Table. Click Advanced Editor to change it.
+- Executable (Executable Stats)
+	- Items inside the Package e.g. Tasks/Data Flows/Containers. I also call this level Package Steps
 
 Data is also shown for Currently Running Packages and SQL jobs. You can refresh this individually to get quick updates.
 This dashboard also provides details of any package errors and maps them to the Microsoft IS Error Reference Names.
@@ -23,28 +23,21 @@ Finally I extracted the Hierarchy from the execution paths to make a Network dia
 I've tried to keep the custom visuals to a minimum  but I have used Sankey/Network Navigator as well as the OKViz Bullet and Sparklines.
 The PowerBI is blank with that needs the server parameter setting to your SSIS db server before applying the changes and granting permissions. 
 
-Release Notes
+### Release Notes
 
 v1.00	
-
-New Layout with Filter and Help Screens and Visualisation Toggles
-
-Condiditional Formating on Execution List
-
-Add Execution Step Gantt and Project/Package Parameters
-
-Report Tooltip on Gantt
-
-Fix Duration if Package is called twice in an Execution
-
-Add Option for different Server for SQL Jobs
-
-Add TaskType Lookup based on naming convention
-
-Add support for ^(start) and $(end) in Package Name and Task Type Lookups
+- New Layout with Filter and Help Screens and Visualisation Toggles
+- Condiditional Formating on Execution List
+- Add Execution Step Gantt and Project/Package Parameters
+- Report Tooltip on Gantt
+- Fix Duration if Package is called twice in an Execution
+- Add Option for different Server for SQL Jobs
+- Add TaskType Lookup based on naming convention
+- Add support for ^(start) and $(end) in Package Name and Task Type Lookups
 
 
-Forum Post											http://community.powerbi.com/t5/Data-Stories-Gallery/SSIS-Catalog-DB-Dashboard/m-p/244677				
+Forum Post											http://community.powerbi.com/t5/Data-Stories-Gallery/SSIS-Catalog-DB-Dashboard/m-p/244677
+
 Templates for the package can can be found here.	https://github.com/stretcharm/SSIS-DB-Dashboard
 
 
