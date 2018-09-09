@@ -35,7 +35,7 @@ Add Execution Step Gantt and Project/Package Parameters
 
 Report Tooltip on Gantt
 
-Fix Duration if Package is called twice in an Exection
+Fix Duration if Package is called twice in an Execution
 
 Add Option for different Server for SQL Jobs
 
