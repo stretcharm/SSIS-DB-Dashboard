@@ -26,7 +26,7 @@ The PowerBI is blank with that needs the server parameter setting to your SSIS d
 ### Release Notes
 
 v1.3
--Improved query on Exectutions and Executables
+-Improved query on Executions and Executables
 - Added Include fields for the Package types to configure the Master & Package Page filtering. 
  Edit PackageTypesUse Query to configure.
 - Changed Package filters 
