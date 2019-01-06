@@ -25,15 +25,16 @@ The PowerBI is blank with that needs the server parameter setting to your SSIS d
 
 ### Release Notes
 
-v1.00	
-- New Layout with Filter and Help Screens and Visualisation Toggles
-- Condiditional Formating on Execution List
-- Add Execution Step Gantt and Project/Package Parameters
-- Report Tooltip on Gantt
-- Fix Duration if Package is called twice in an Execution
-- Add Option for different Server for SQL Jobs
-- Add TaskType Lookup based on naming convention
-- Add support for ^(start) and $(end) in Package Name and Task Type Lookups
+v1.3
+-Improved query on Exectutions and Executables
+- Added Include fields for the Package types to configure the Master & Package Page filtering. 
+ Edit PackageTypesUse Query to configure.
+- Changed Package filters 
+- Add Date, Start, Execution ID Hierarchy to the Master and Package Pages
+- Added Preserve Layers Bookmark to help avoid window coming to the front
+- Remove Optional Job Server Code
+- Add Icon Ribbon and Help Page.
+- Minor Fixes
 
 
 Forum Post											http://community.powerbi.com/t5/Data-Stories-Gallery/SSIS-Catalog-DB-Dashboard/m-p/244677
