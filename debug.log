@@ -1,0 +1,8 @@
+[0406/182039.793:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Phil\AppData\Local\Power BI Desktop\User Data\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0406/182039.840:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0406/182039.843:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Phil\AppData\Local\Power BI Desktop\User Data\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0406/182040.186:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[0406/182041.021:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[0406/182041.223:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[0406/182051.870:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[0406/182053.498:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
